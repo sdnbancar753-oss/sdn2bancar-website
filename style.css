@@ -12,7 +12,11 @@ body{
 }
 
 .hero{
- .hero{
+  .hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:
   background:linear-gradient(135deg,#7dd3fc,#86efac,#fdba74);
   min-height:80vh;
   display:flex;
