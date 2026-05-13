@@ -12,7 +12,23 @@ body{
 }
 
 .hero{
-  ..hero::before{
+.hero{
+  background: linear-gradient(
+    135deg,
+    #7dd3fc,
+    #86efac,
+    #fdba74
+  );
+
+  min-height:80vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;
+  position:relative;
+  overflow:hidden;
+}
   content:"";
   position:absolute;
   width:100%;
